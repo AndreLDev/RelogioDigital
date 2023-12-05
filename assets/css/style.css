@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(1,0,23);
+background: linear-gradient(120deg, rgba(1,0,23,1) 0%, rgba(6,154,6,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 500px;
+    width: 550px;
+    background: rgb(235, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 100%;
+}
+
+.border {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row; 
+    background: #03545f;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#relogio div div {
+    width: 150px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 100px;
+}
+
+
+#relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#relogio .tempo{
+    font-size: 15px;
+}
